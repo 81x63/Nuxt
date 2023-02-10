@@ -1,31 +1,14 @@
 <template>
   <div class="container">
     <div class="row"> 
-      <div class="col">
-        Column
-      </div>
-      <div class="col">
-        Column
-      </div>
-      <div class="col">
-        Column
-      </div>
+      <div class="col" v-for="item in state.messeges">{{ item }}</div>
     </div>
   </div>
-  <div class="container">
-    <div class="row"> 
-      <div class="col">
-        Column
-      </div>
-      <div class="col">
-        Column
-      </div>
-      <div class="col">
-        Column
-      </div>
-    </div>
-  </div>
+
 </template>
 <script setup>
- const data = useGame()
+ const state = useGameState()
+ const init = useGameInit()
+ init()
+ 
 </script>
