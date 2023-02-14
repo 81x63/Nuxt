@@ -24,7 +24,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <a href="index.vue" class="btn btn-primary ms-3">現在</a>
+          <a href="https://tak-hz-solid-succotash-xg7q69jjvqwfpp76-3000.preview.app.github.dev/" class="btn btn-primary ms-3">現在</a>
         </div>
       </div>
     </nav>
@@ -37,8 +37,10 @@
             <p class="text-white my-3">
               <br>
             </p>
-            <a href="kakoindex.vue" class="btn btn-outline-success">過去</a>
-            <a href="miraiindex.vue" class="btn btn-outline-success">未来</a>
+            <nuxt-link to="/about"></nuxt-link>
+            <a href="https://tak-hz-solid-succotash-xg7q69jjvqwfpp76-3000.preview.app.github.dev/kakoindex" class="btn btn-outline-success">過去</a>
+            <nuxt-link to="/about"></nuxt-link>
+            <a href="https://tak-hz-solid-succotash-xg7q69jjvqwfpp76-3000.preview.app.github.dev/miraiindex" class="btn btn-outline-success">未来</a>
           </div>
         </div>
       </div>
